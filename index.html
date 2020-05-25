@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=w9Xy0B3D5njrfgDzup6v3ZO6Sn0rh6TO8sehjggE"
+    ></script>
+    <title>Breeze Pilates</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__title">BREEZE PILATES</div>
+      <div class="header__subtitle">LIFE + FITNESS COACH</div>
+      <div class="header__dropdown">
+        <button class="header__dropdown-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="header__dropdown-content">
+          <a href="#">
+            Naver Blog
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+          <a href="#footer">
+            <i class="far fa-address-card"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="top-main">
+      <img class="top-main-img" src="./src/photo1.jpeg" />
+      <div class="top-main-text">오직 당신만을 위한<br />필라테스</div>
+    </section>
+    <section class="strength">
+      <div class="strength__item">
+        <i class="fas fa-user-edit"></i>
+        <p class="strength__content">내용내용내용</p>
+      </div>
+      <div class="strength__item">
+        <i class="fas fa-balance-scale fa-2x"></i>
+
+        <p class="strength__content">내용내용내용</p>
+      </div>
+      <div class="strength__item">
+        <i class="fas fa-user-graduate fa-2x"></i>
+        <p class="strength__content">내용내용내용</p>
+      </div>
+    </section>
+    <section class="profile">
+      <div class="profile__item">
+        <img class="profile__img" src="./src/photo2.jpeg" />
+      </div>
+      <div class="profile__item">
+        <h2 class="profile__title">경력</h2>
+        <p class="profile__content">경력 세부사항</p>
+        <ul class="profile__career-list">
+          <li class="career-item">어쩌고 필라테스 협회</li>
+          <li class="career-item">운동처방 치료사</li>
+          <li class="career-item">Stott</li>
+        </ul>
+      </div>
+      <div id="map" class="map"></div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="footer-column">OPEN HOUR</div>
+      <div class="footer-column">Address</div>
+      <div class="footer-column">SNS</div>
+    </footer>
+  </body>
+  <script src="./main.js"></script>
+</html>

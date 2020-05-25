@@ -1,0 +1,22 @@
+.top-main {
+  width: 100%;
+  position: relative;
+}
+
+.top-main-img {
+  width: 100%;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+.top-main-text {
+  position: absolute;
+  top: 7vw;
+  right: 3vw;
+  font-size: 7vw;
+  color: white;
+  font-weight: 600;
+  text-shadow: 3px 3px black;
+  text-align: right;
+  z-index: 3;
+}

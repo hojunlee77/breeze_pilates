@@ -1,0 +1,25 @@
+.profile {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.profile__img {
+  border-top-right-radius: 3%;
+}
+
+.profile__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__item:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__img {
+  width: 100%;
+  height: auto;
+}

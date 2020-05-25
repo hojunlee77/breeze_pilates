@@ -1,0 +1,18 @@
+.strength {
+  display: grid;
+  height: 50vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.strength__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.strength__item > i {
+  font-size: 4vw;
+  color: #708090;
+}
