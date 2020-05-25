@@ -1,6 +1,6 @@
 .footer {
   display: grid;
-  height: 40vh;
+  height: 30vh;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 1vw;
   background-color: #232423;
