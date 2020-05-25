@@ -1,11 +1,33 @@
 .footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 30vh;
+  display: grid;
+  height: 40vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1vw;
   background-color: #232423;
 }
 
 .footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   color: white;
+}
+
+.footer-title {
+  justify-self: flex-start;
+  font-family: "Lobster";
+  font-size: 2vw;
+}
+
+.footer-content {
+  font-size: 1.3vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer-hint {
+  font-size: 1vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
