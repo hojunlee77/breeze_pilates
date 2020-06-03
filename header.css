@@ -26,7 +26,6 @@
   top: 5px;
   right: 10px;
   z-index: 4;
-  transition: 0.5s;
 }
 
 .header__dropdown-btn {
@@ -48,6 +47,8 @@
   display: none;
   background-color: #f1f1f1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease-in-out;
+  border-radius: 10%;
 }
 
 .header__dropdown-content a {
@@ -56,4 +57,10 @@
   display: flex;
   justify-content: center;
   padding: 1vw 1vw;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 20vh;
+  }
 }
